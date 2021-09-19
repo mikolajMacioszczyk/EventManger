@@ -28,25 +28,29 @@ namespace EventManager.API.Controllers
         [HttpPost]
         public async Task<ActionResult<JobOffer>> AddAsync([FromBody] JobOffer offer)
         {
-            if (await _offerSevice.AddOffer(offer))
-            {
-                return Ok(offer);
-            }
-            return BadRequest();
+            return await _offerSevice.AddOffer(offer);
         }
 
         [HttpPut]
         [Route("{id}")]
-        public async Task<ActionResult<bool>> UpdateAsync([FromRoute] int id, [FromBody] JobOffer offer)
+        public async Task<IActionResult> UpdateAsync([FromRoute] int id, [FromBody] JobOffer offer)
         {
-            return await _offerSevice.UpdateOffer(id, offer);
+            if (await _offerSevice.UpdateOffer(id, offer))
+            {
+                return Ok();
+            }
+            return NotFound();
         }
 
         [HttpDelete]
         [Route("{id}")]
         public async Task<ActionResult<bool>> DeleteAsync([FromRoute] int id)
         {
-            return await _offerSevice.DeleteOffer(id);
+            if (await _offerSevice.DeleteOffer(id))
+            {
+                return Ok();
+            }
+            return NotFound();
         }
     }
 }

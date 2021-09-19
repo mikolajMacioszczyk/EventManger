@@ -10,5 +10,14 @@ namespace EventManager.Domain.Models
         public double Salary { get; set; }
         public double Hour { get; set; }
         public OfferStatus Status { get; set; }
+
+        public void Update(JobOffer offer)
+        {
+            PositionType = offer.PositionType;
+            Event = offer.Event;
+            Salary = offer.Salary;
+            Hour = offer.Hour;
+            Status = offer.Status;
+        }
     }
 }
