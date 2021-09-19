@@ -285,9 +285,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.csproj",
-      "projectName": "EventManager",
-      "projectPath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.csproj",
+      "projectUniqueName": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.API.csproj",
+      "projectName": "EventManager.API",
+      "projectPath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.API.csproj",
       "packagesPath": "C:\\Users\\macio\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\obj\\",
       "projectStyle": "PackageReference",

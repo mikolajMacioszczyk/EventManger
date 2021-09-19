@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager", "EventManager\EventManager.csproj", "{A1ECC746-E36D-4BDC-8342-A1BFC3F43F8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManager.API", "EventManager\EventManager.API.csproj", "{A1ECC746-E36D-4BDC-8342-A1BFC3F43F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Domain", "EventManager.Domain\EventManager.Domain.csproj", "{A7C30C37-7DBE-4EFA-B656-08FC71279F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Repo", "EventManager.Repo\EventManager.Repo.csproj", "{46B47D9F-5FFB-47A4-AD07-0D0B14D062B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A1ECC746-E36D-4BDC-8342-A1BFC3F43F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1ECC746-E36D-4BDC-8342-A1BFC3F43F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1ECC746-E36D-4BDC-8342-A1BFC3F43F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C30C37-7DBE-4EFA-B656-08FC71279F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C30C37-7DBE-4EFA-B656-08FC71279F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C30C37-7DBE-4EFA-B656-08FC71279F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C30C37-7DBE-4EFA-B656-08FC71279F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B47D9F-5FFB-47A4-AD07-0D0B14D062B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B47D9F-5FFB-47A4-AD07-0D0B14D062B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B47D9F-5FFB-47A4-AD07-0D0B14D062B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B47D9F-5FFB-47A4-AD07-0D0B14D062B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

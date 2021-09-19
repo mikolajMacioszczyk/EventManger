@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PCwlp2tMbODo8nN72FhyRLRSldDfZn6kjJavzGw5eG8BitFJcFcj4LlxxcWCsrsAmbmMe+WaW5/Meltps0MSQw==",
+  "dgSpecHash": "5jsJP4jOvYNQu99bPdAly2n73JxgsLi3q6hpk/gXYkmv5PW8RbMQZQ9Kj3xkmOurxTqNU9xdSPSqbTN40NonMA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.csproj",
+  "projectFilePath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macio\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\macio\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
