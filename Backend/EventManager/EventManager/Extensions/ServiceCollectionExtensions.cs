@@ -8,7 +8,10 @@ namespace EventManager.API.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
-            return services.AddScoped<IOfferSevice, OfferService>();
+            services.AddScoped<IOfferSevice, OfferService>();
+            services.AddScoped<IStatusService, StatusService>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            return services;
         }
     }
 }
