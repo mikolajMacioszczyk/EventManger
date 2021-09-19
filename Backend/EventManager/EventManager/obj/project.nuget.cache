@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5jsJP4jOvYNQu99bPdAly2n73JxgsLi3q6hpk/gXYkmv5PW8RbMQZQ9Kj3xkmOurxTqNU9xdSPSqbTN40NonMA==",
+  "dgSpecHash": "9yffziF/fTqLma8XnfAa9vxeD6/Y/yXAxRHas+HWGg2xYQfHY20j4ZPwPRjsfc6tWd8pC+1ZbQ0d8S6AvO2h2Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager\\EventManager.API.csproj",
   "expectedPackageFiles": [

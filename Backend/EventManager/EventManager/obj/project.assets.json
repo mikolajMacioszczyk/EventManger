@@ -82,6 +82,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "EventManager.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EventManager.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventManager.Domain.dll": {}
+        }
+      },
+      "EventManager.Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EventManager.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EventManager.Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventManager.Repo.dll": {}
+        }
       }
     }
   },
@@ -271,10 +294,22 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "EventManager.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EventManager.Domain/EventManager.Domain.csproj",
+      "msbuildProject": "../EventManager.Domain/EventManager.Domain.csproj"
+    },
+    "EventManager.Repo/1.0.0": {
+      "type": "project",
+      "path": "../EventManager.Repo/EventManager.Repo.csproj",
+      "msbuildProject": "../EventManager.Repo/EventManager.Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EventManager.Domain >= 1.0.0",
+      "EventManager.Repo >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -305,7 +340,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager.Domain\\EventManager.Domain.csproj": {
+              "projectPath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager.Domain\\EventManager.Domain.csproj"
+            },
+            "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager.Repo\\EventManager.Repo.csproj": {
+              "projectPath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager.Repo\\EventManager.Repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

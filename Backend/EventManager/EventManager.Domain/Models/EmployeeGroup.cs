@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventManager.Domain.Enums;
+using System;
 
 namespace EventManager.Domain.Models
 {

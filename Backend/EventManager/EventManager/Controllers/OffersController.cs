@@ -1,16 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using EventManager.Domain.Enums;
+using EventManager.Domain.Models;
+using EventManager.Repo.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace EventManager.API.Controllers
 {
-    public class OffersController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class OffersController : ControllerBase
     {
-        public IActionResult Index()
+        private readonly IOfferSevice _offerSevice;
+
+        public OffersController(IOfferSevice offerSevice)
         {
-            return View();
+            _offerSevice = offerSevice;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<JobOffer>>> GetAllOffersAsync([FromQuery] PositionType positionType)
+        {
+            var result = await _offerSevice.GetAllOffers(positionType);
+            return Ok(result);
         }
     }
 }

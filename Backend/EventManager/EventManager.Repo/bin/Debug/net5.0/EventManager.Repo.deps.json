@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EventManager.Repo/1.0.0": {
+        "dependencies": {
+          "EventManager.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EventManager.Repo.dll": {}
+        }
+      },
+      "EventManager.Domain/1.0.0": {
+        "runtime": {
+          "EventManager.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventManager.Repo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EventManager.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

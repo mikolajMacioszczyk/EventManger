@@ -1,4 +1,4 @@
-﻿namespace EventManager.Domain.Models
+﻿namespace EventManager.Domain.Enums
 {
     public enum PositionType
     {

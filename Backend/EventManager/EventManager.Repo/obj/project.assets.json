@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "EventManager.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EventManager.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventManager.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EventManager.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EventManager.Domain/EventManager.Domain.csproj",
+      "msbuildProject": "../EventManager.Domain/EventManager.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "EventManager.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\macio\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager.Domain\\EventManager.Domain.csproj": {
+              "projectPath": "D:\\Projects\\DotNet\\eventManager\\Backend\\EventManager\\EventManager.Domain\\EventManager.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

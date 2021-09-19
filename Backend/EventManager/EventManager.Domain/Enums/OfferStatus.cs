@@ -4,6 +4,7 @@
     {
         // Before
         New,
+        Registered,
         ReserveList,
         // By company
         Accepted,

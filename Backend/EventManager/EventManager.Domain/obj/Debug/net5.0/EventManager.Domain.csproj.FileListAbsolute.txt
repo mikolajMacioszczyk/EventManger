@@ -1,0 +1,11 @@
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\bin\Debug\net5.0\EventManager.Domain.deps.json
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\bin\Debug\net5.0\EventManager.Domain.dll
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\bin\Debug\net5.0\ref\EventManager.Domain.dll
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\bin\Debug\net5.0\EventManager.Domain.pdb
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.AssemblyInfoInputs.cache
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.AssemblyInfo.cs
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.dll
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\ref\EventManager.Domain.dll
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.pdb
