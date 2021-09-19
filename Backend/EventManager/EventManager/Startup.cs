@@ -34,6 +34,7 @@ namespace EventManager
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EventManager", Version = "v1" });
             });
 
+            services.AddDbContext(Configuration);
             services.AddApplicationServices();
         }
 

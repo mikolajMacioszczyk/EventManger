@@ -9,3 +9,4 @@ D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Deb
 D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.dll
 D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\ref\EventManager.Domain.dll
 D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.pdb
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Domain\obj\Debug\net5.0\EventManager.Domain.csproj.AssemblyReference.cache

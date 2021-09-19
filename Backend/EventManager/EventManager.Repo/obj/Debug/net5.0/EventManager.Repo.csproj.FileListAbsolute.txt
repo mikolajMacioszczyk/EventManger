@@ -13,3 +13,6 @@ D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\obj\Debug
 D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\obj\Debug\net5.0\EventManager.Repo.dll
 D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\obj\Debug\net5.0\ref\EventManager.Repo.dll
 D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\obj\Debug\net5.0\EventManager.Repo.pdb
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\bin\Debug\net5.0\EventManager.Repo.runtimeconfig.json
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\bin\Debug\net5.0\EventManager.Repo.runtimeconfig.dev.json
+D:\Projects\DotNet\eventManager\Backend\EventManager\EventManager.Repo\obj\Debug\net5.0\EventManager.Repo.genruntimeconfig.cache

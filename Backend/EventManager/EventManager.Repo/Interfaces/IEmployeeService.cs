@@ -5,6 +5,6 @@ namespace EventManager.Repo.Interfaces
 {
     public interface IEmployeeService
     {
-        Task<Emplyee> GetEmployeeById(int id);
+        Task<Employee> GetEmployeeById(int id);
     }
 }

@@ -7,7 +7,7 @@ namespace EventManager.Repo.Services
 {
     public class EmployeeService : IEmployeeService
     {
-        public Task<Emplyee> GetEmployeeById(int id)
+        public Task<Employee> GetEmployeeById(int id)
         {
             // TODO: DBcontext
             throw new NotImplementedException();
