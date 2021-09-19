@@ -18,7 +18,7 @@ namespace EventManager.Repo.Services
 
         public async Task<Employee> GetEmployeeById(int id)
         {
-            return await _context.Employees.FirstOrDefaultAsync(e => e.Id == id);
+            return await _context.Employees.Include(e => e.OfferStatuses).FirstOrDefaultAsync(e => e.Id == id);
         }
     }
 }

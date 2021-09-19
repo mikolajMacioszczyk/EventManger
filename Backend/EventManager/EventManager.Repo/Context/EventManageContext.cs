@@ -16,5 +16,6 @@ namespace EventManager.Repo.Context
         public DbSet<Event> Events { get; set; }
         public DbSet<EventManagement> EventManagements { get; set; }
         public DbSet<JobOffer> JobOffers { get; set; }
+        public DbSet<JobOfferStatus> JobOfferStatuses { get; set; }
     }
 }

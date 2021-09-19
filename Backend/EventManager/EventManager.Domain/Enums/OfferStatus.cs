@@ -3,7 +3,6 @@
     public enum OfferStatus
     {
         // Before
-        New,
         Registered,
         ReserveList,
         // By company

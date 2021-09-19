@@ -19,8 +19,12 @@ namespace EventManager.API.Controllers
         [Route("register/{employeeId}/{offerId}")]
         public async Task<ActionResult<bool>> RegisterToOfferAsync([FromRoute] int employeeId, int offerId)
         {
-            var result = await _statusService.RegisterToOffer(employeeId, offerId);
-            return Ok(result);
+            if (await _statusService.RegisterToOffer(employeeId, offerId))
+            {
+                return Ok();
+            }
+
+            return BadRequest();
         }
     }
 }
